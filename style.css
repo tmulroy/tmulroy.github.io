@@ -1,14 +1,39 @@
-.container {
+nav {
+	background-color: white;
+	/*border: 1px solid black;*/
+}
+ul {
+	position: relative;
+	left: 60%;
+	top: 1rem;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 35%;
+	height: 10em;
+}
+li {
+	float: right;
+	/*border: 1px dashed blue;*/
 	font-family: sans-serif;
-	text-align: center;
+	padding: 0;
+	float: left;
+	height: 100%;
+	width: calc(100% / 3 - 1rem);
+
 }
 
-h4 {
-	padding: 20px;
-}
-
-footer {
-	font-family: sans-serif;
+li a {
+	float: right;
+	display: block;
+	margin-left: 25%;
+	/*border: 1px dashed red;*/
 	text-align: center;
-	padding: 20px;
+	text-decoration: none;
+	vertical-align: bottom;
+	width: 50%;
+	height: 50%;
+	color: rgba(136, 136, 136, 0.89);
+	font-size: 160%;
+
 }
