@@ -1,6 +1,5 @@
 nav {
 	background-color: white;
-	/*border: 1px solid black;*/
 }
 ul {
 	position: relative;
@@ -10,7 +9,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	width: 35%;
-	height: 10em;
+	height: 4em;
 }
 li {
 	float: right;
@@ -35,5 +34,48 @@ li a {
 	height: 50%;
 	color: rgba(136, 136, 136, 0.89);
 	font-size: 160%;
+}
 
+#landing-container {
+	position: relative;
+	height: 50rem;
+	width: 100%;
+	border: 1px solid blue;
+}
+#about-container {
+	position: relative;
+	height: 35rem;
+	width: 100%;
+}
+#portfolio-container {
+	position: relative;
+	height: 35rem;
+	width: 100%;
+	/*border: 1px solid green;*/
+}
+#form-container {
+	position: relative;
+	height: 25%;
+	width: 100%;
+	/*border: 1px solid orange;*/
+	text-align: center;
+}
+#contact-form {
+	display: inline-block;
+	height: 10%;
+	width: 30%;
+	border: 1px dashed red;
+}
+input {
+	height: 5rem;
+	width: 30rem;
+	text-align: center;
+	font-size: 2rem;
+}
+
+textarea {
+	position: relative;
+	height: 5rem;
+	width: 30rem;
+	font-size: 2rem;
 }
