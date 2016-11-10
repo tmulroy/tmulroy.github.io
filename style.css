@@ -54,6 +54,108 @@ li a {
 	height: 35rem;
 	width: 100%;
 }
+
+#about-me-container {
+	position: relative;
+	height: 30%;
+	width: 50%;
+	left: 25%;
+	border: 1px solid black;
+}
+#individual-skill-container {
+	position: relative;
+	height: 30%;
+	width: 8%;
+	/*border: 1px dashed green;*/
+}
+#js-logo-container {
+	position: relative;
+	height: 30%;
+	width: 8%;
+	top: 30%;
+	/*border: 1px dashed green;*/
+}
+#js-logo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#html-container {
+	position: relative;
+	height: 30%;
+	width: 8%;
+	top: 1%;
+	left: 10%;
+}
+#html-logo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	/*border: 1px dashed red;*/
+}
+#css-logo-container {
+	position: relative;
+	height: 30%;
+	width: 8%;
+	top: -29%;
+	left: 20%;
+	/*border: 1px dashed blue;*/
+}
+#css-logo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#node-logo-container {
+	position: relative;
+	height: 30%;
+	width: 15%;
+	top: -60%;
+	left: 32%;
+	/*border: 1px dashed orange;*/
+}
+#node-logo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#express-logo-container {
+	position: relative;
+	height: 22%;
+	width: 15%;
+	top: -89%;
+	left: 50%;
+	/*border: 1px dashed yellow;*/
+}
+#express-logo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#react-logo-container {
+	position: relative;
+	height: 22%;
+	width: 18%;
+	top: -112%;
+	left: 67%;
+}
+#react-logo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#rails-logo-container {
+	position: relative;
+	height: 30%;
+	width: 8%;
+	top: -137%;
+	left: 90%;
+}
+#rails-logo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
 #about-container {
 	position: relative;
 	height: 41rem;
