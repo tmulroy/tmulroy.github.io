@@ -36,17 +36,23 @@ li a {
 	font-size: 160%;
 }
 
-#landing-image {
+#landing-text {
 	position: relative;
-	height: 100%;
-	width: 100%;
+	color: white;
+	font-family: sans-serif;
+	font-size: 600%;
+	top: 30%;
 }
 
 #landing-container {
 	position: relative;
 	height: 50rem;
 	width: 100%;
-	/*border: 1px solid blue;*/
+	top: -10%;
+	background: url("./fall.jpg");
+	background-size: cover;
+	text-align: center;
+	border: 1px solid white;
 }
 
 #skills-container {
@@ -60,7 +66,22 @@ li a {
 	height: 30%;
 	width: 50%;
 	left: 25%;
-	border: 1px solid black;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+#hello-msg {
+	margin: 0 auto;
+	height: 50%;
+	width: 100%;
+	font-size: 500%;
+	font-family: sans-serif;
+	/*border: 1px solid red;*/
+}
+
+#about-me-paragraph {
+	position: relative;
+	font-size: 150%;
+	font-family: sans-serif;
 }
 #individual-skill-container {
 	position: relative;
@@ -158,8 +179,19 @@ li a {
 }
 #about-container {
 	position: relative;
-	height: 41rem;
+	height: 44rem;
 	width: 100%;
+}
+#timeline-header {
+	position: relative;
+	height: 3rem;
+	width: 100%;
+}
+#personal-timeline-header-text {
+	position: relative;
+	font-size: 300%;
+	font-family: sans-serif;
+	top: -2rem;
 }
 #portfolio-container {
 	position: relative;
@@ -167,24 +199,64 @@ li a {
 	width: 100%;
 	/*border: 1px solid green;*/
 }
+#portfolio-header {
+	position: relative;
+	height: 3rem;
+	width: 100%;
+}
+#portfolio-header-text {
+	position: relative;
+	float: right;
+	font-size: 300%;
+	font-family: sans-serif;
+	top: -2rem;
+}
+#ga-hunter {
+	position: relative;
+	height: 80%;
+	width: 35%;
+	text-align: center;
+	left: 32%;
+	top: 5%;
+}
+#ga-hunter-img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid black;
+}
 #form-container {
 	position: relative;
-	height: 25%;
+	height: 50%;
 	width: 100%;
 	/*border: 1px solid orange;*/
 	text-align: center;
+}
+#contact-form-header {
+	position: relative;
+	height: 5rem;
+	width: 100%;
+	/*border: 1px solid green;*/
+}
+#contact-form-header-text {
+	position: relative;
+	font-size: 300%;
+	font-family: sans-serif;
+	top: -2rem;
 }
 #contact-form {
 	display: inline-block;
 	height: 10%;
 	width: 30%;
-	border: 1px dashed red;
+	font-family: sans-serif;
 }
 input {
 	height: 5rem;
 	width: 30rem;
 	text-align: center;
 	font-size: 2rem;
+	border: 1px solid lightgrey;
 }
 
 textarea {
@@ -192,12 +264,26 @@ textarea {
 	height: 5rem;
 	width: 30rem;
 	font-size: 2rem;
+	font-family: sans-serif;
+	text-align: center;
 }
-
+#copyright {
+	position: relative;
+	/*left: 91%;*/
+	top: 10%;
+	text-align: center;
+	font-family: sans-serif;
+}
 footer {
 	position: relative;
 	height: 5rem;
 	width: 100%;
-	border: 1px solid purple;
 	font-size: 1rem;
+}
+#github-logo {
+	position: relative;
+	height: 100%;
+	width: 5rem;
+	top: -1rem;
+	left: 48%;
 }
