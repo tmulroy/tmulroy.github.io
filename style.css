@@ -228,16 +228,15 @@ li a {
 }
 #form-container {
 	position: relative;
+	top: 43rem;
 	height: 50%;
 	width: 100%;
-	/*border: 1px solid orange;*/
 	text-align: center;
 }
 #contact-form-header {
 	position: relative;
 	height: 5rem;
 	width: 100%;
-	/*border: 1px solid green;*/
 }
 #contact-form-header-text {
 	position: relative;
@@ -247,7 +246,7 @@ li a {
 }
 #contact-form {
 	display: inline-block;
-	height: 10%;
+	height: 15%;
 	width: 30%;
 	font-family: sans-serif;
 }
@@ -285,5 +284,4 @@ footer {
 	height: 100%;
 	width: 5rem;
 	top: -1rem;
-	left: 48%;
 }
