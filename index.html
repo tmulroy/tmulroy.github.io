@@ -4,13 +4,14 @@
 	<title>Tom's About Page</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
 	<nav>
 		<ul>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#about-me-container">About</a></li>
+			<li><a href="#portfolio-container">Portfolio</a></li>
+			<li><a href="#form-container">Contact</a></li>
 		</ul>
 	</nav>
 	<hr>
@@ -22,7 +23,7 @@
 	<div id="skills-container">
 		<div id="about-me-container">
 			<h1 id="hello-msg">Hello!</h1>
-			<p id="about-me-paragraph">I’m an NYC-based, full-stack web developer interested in building MVPs. My skills range from front-end design and backend architecture to hardware design. Below you'll find a list of technologies I'm familiar with.</p>
+			<p id="about-me-paragraph">I’m an NYC-based, full-stack web developer interested in building MVPs. My skills range from front-end design and backend architecture to hardware design. Here are some technologies I'm familiar with.</p>
 		</div>
 			<div id="js-logo-container">
 				<img src="./assets/js_logo.png" id="js-logo">
@@ -74,11 +75,26 @@
 			<input type="tel" placeholder="number">
 			<textarea rows="4" cols="50" name="comment" form="contact-form">tell me about your idea!</textarea>
 		</form>
+		<hr>
 		<footer>
 			<h2 id="copyright">&#xA9 Tom Mulroy</h2>
 			<a href="https://github.com/tmulroy"><img src="./assets/github.png" id="github-logo"></a>
 		</footer>
 	</div>
-	<hr>
+	<script>$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+</script>
 </body>
 </html>
