@@ -59,6 +59,7 @@ li a {
 	position: relative;
 	height: 35rem;
 	width: 100%;
+	/*border: 1px dashed blue;*/
 }
 
 #about-me-container {
@@ -67,7 +68,7 @@ li a {
 	width: 50%;
 	left: 25%;
 	text-align: center;
-	/*border: 1px solid black;*/
+	/*border: 1px solid orange;*/
 }
 #hello-msg {
 	margin: 0 auto;
@@ -179,8 +180,9 @@ li a {
 }
 #about-container {
 	position: relative;
-	height: 44rem;
+	height: 50rem;
 	width: 100%;
+	/*border: 1px solid red;*/
 }
 #timeline-header {
 	position: relative;
@@ -197,12 +199,14 @@ li a {
 	position: relative;
 	height: 35rem;
 	width: 100%;
+	top: 12%;
 	/*border: 1px solid green;*/
 }
 #portfolio-header {
 	position: relative;
 	height: 3rem;
 	width: 100%;
+	top: 1%;
 }
 #portfolio-header-text {
 	position: relative;
@@ -224,14 +228,15 @@ li a {
 	height: 100%;
 	width: 100%;
 	border-radius: 10px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 #form-container {
 	position: relative;
-	top: 43rem;
+	top: 38rem;
 	height: 50%;
 	width: 100%;
 	text-align: center;
+	/*border: 1px dashed red;*/
 }
 #contact-form-header {
 	position: relative;
