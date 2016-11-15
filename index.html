@@ -48,18 +48,19 @@
 			</div>
 	</div>
 	<hr>
-	<div id="about-container">
+	<div id="timeline-container">
 		<div id="timeline-header">
 			<h3 id="personal-timeline-header-text">PERSONAL TIMELINE</h3>
 		</div>
 		<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1p-gJZwsAElnaslB_wL_FhuLdJ1Y3o-7IowT-N6r7eXc&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
-		<div id="portfolio-container">
-			<div id="portfolio-header">
-				<h3 id="portfolio-header-text">PORTFOLIO</h3>
-			</div>
-			<div id="ga-hunter">
-				<a href="ga-hunter.herokuapp.com"><img src="./assets/ga_hunter.png" id="ga-hunter-img"></a>
-			</div>
+	</div>
+	<hr>
+	<div id="portfolio-container">
+		<div id="portfolio-header">
+			<h3 id="portfolio-header-text">PORTFOLIO</h3>
+		</div>
+		<div id="ga-hunter">
+			<a href="ga-hunter.herokuapp.com"><img src="./assets/ga_hunter.png" id="ga-hunter-img"></a>
 		</div>
 	</div>
 	<hr>
@@ -67,11 +68,16 @@
 		<div id="contact-form-header">
 			<h3 id="contact-form-header-text">CONTACT</h3>
 		</div>
-		<form id="contact-form">
-			<input type="text" placeholder="first name">
-			<input type="text" placeholder="last name">
-			<input type="text" placeholder="email">
-			<textarea rows="4" cols="50" name="comment" form="contact-form">tell me about your idea!</textarea>
+		<!-- <div id="phone-logo-container">
+			<img src="./assets/phone_v1.png" id="phone-logo">
+			<h1 id="phone-number">1 (203) 644-5238</h1>
+		</div> -->
+		<form action="https://getform.org/f/647024c9-3928-49d2-b9f8-eff67a902ea0" method="POST" id="contact-form">
+				<input type="text" placeholder="first name">
+				<input type="text" placeholder="last name">
+				<input type="text" placeholder="email">
+				<textarea rows="4" cols="50" name="comment" form="contact-form">tell me about your idea!</textarea>
+				<input type="submit" id="submit-button">
 		</form>
 		<hr>
 	</div>
